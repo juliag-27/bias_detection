@@ -2,6 +2,12 @@
 <h2> Project Overview </h2>
 This project is a machine learning pipeline for detecting bias in Reddit comments, with the hope that it can be extended to clean text comments in datasets before training LLMS. It primarily uses BERT (Bidirectional Encoder Representations from Transformers) for sequence classifications and is evaluated with K-Fold Cross-Validation. 
 
+<h3> Files </h3>
+
+- Bias_Detection : Trained and fine-tuned model pipeline
+- Preprocessing + Visualization : Early preprocessing and visualizing work with pandas
+- Meta 1A : Slidedeck presentation for my fellowship
+
 <h2> Methods </h2>
 <h3> Data </h3>
 See more about the data from the original dataset here: https://github.com/umanlp/RedditBias
